@@ -1,0 +1,10 @@
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Test" android:id="tv1" android:textColor="black"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Click" android:id="btn1" android:padding="10"/>
+    <ImageView android:layout_width="200" android:layout_height="200" android:src="logo.png" android:id="img1" android:padding="5"/>
+    <RadioGroup android:layout_width="match_parent" android:layout_height="wrap_content" android:id="rg1" android:radioButtonCount="2" android:checkedButton="rb1">
+        <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Option A" android:id="rb1"/>
+        <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Option B" android:id="rb2"/>
+    </RadioGroup>
+    <ProgressBar android:layout_width="match_parent" android:layout_height="wrap_content" android:id="pb1" android:max="100" android:progress="50"/>
+</LinearLayout>

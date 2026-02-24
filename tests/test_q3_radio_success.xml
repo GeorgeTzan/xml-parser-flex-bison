@@ -1,0 +1,6 @@
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent">
+    <RadioGroup android:layout_width="match_parent" android:layout_height="wrap_content" android:id="radioGroup1" android:radioButtonCount="2" android:checkedButton="rb1">
+        <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Option 1" android:id="rb1"/>
+        <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Option 2" android:id="rb2"/>
+    </RadioGroup>
+</LinearLayout>

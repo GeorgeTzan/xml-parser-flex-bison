@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Hello World" android:textColor="black"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Click Me" android:padding="10"/>
+    <RadioGroup android:layout_width="match_parent" android:layout_height="wrap_content" android:id="radioGroup1" android:radioButtonCount="2">
+        <RadioButton android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Option 1"/>
+        <RadioButton android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Option 2"/>
+    </RadioGroup>
+</LinearLayout>
